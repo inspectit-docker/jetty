@@ -34,7 +34,6 @@ $ docker run -d -e INSPECTIT_CMR_ADDR=<cmr-ip-address> -e INSPECTIT_CMR_PORT=<cm
 
 ## Specifying the Jetty version
 Currently, this image is based on the latest Jetty image. Later, support for different versions is added.
-```
 
 ## Specifying the inspectIT version
 Currently, this image is based on the latest beta inspectIT. Later, support for other versions is added.
