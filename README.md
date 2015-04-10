@@ -15,7 +15,7 @@ Now you can start a container with the following command:
 $ docker run -d --link inspectIT-CMR:cmr -v $(pwd)/config:/opt/agent/active-config inspectit/jetty
 ```
 
-You can now adjust the instrumentation configuration in the folder config for your needs.
+You can now adjust the instrumentation configuration in the folder *config* for your needs. Please refer to our [documentation](https://documentation.novatec-gmbh.de/display/INSPECTIT/Agent+Configuration) or just leave a comment.
 
 ## Configuration
 ### Agent name
@@ -36,7 +36,7 @@ $ docker run -d -e INSPECTIT_CMR_ADDR=<cmr-ip-address> -e INSPECTIT_CMR_PORT=<cm
 Currently, this image is based on the latest Jetty image. Later, support for different versions is added.
 
 ## Specifying the inspectIT version
-Currently, this image is based on the latest beta inspectIT. Later, support for other versions is added.
+Currently, this image is based on the latest beta inspectIT release. Later, support for other versions is added.
 
 ## Build the docker image
 If you want to build the Jetty inspectIT image yourself, checkout this repository and run 
