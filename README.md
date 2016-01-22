@@ -17,7 +17,7 @@ Now you can start a container with the following command:
 $ docker run -d --link inspectIT-CMR:cmr -v $(pwd)/config:/opt/agent/active-config inspectit/jetty
 ```
 
-You can now adjust the instrumentation configuration in the folder *config* for your needs. Please refer to our [documentation](https://documentation.novatec-gmbh.de/display/INSPECTIT/Agent+Configuration) or just leave a comment.
+You can now adjust the instrumentation configuration in the folder *config* for your needs. Please refer to our [documentation](https://inspectit-performance.atlassian.net/wiki/display/DOC16/Agent+Configuration) or just leave a comment.
 
 ## Configuration
 ### Agent name
