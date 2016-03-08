@@ -1,10 +1,10 @@
 FROM jetty:latest
 
-ENV INSPECTIT_VERSION 1.6.5.70
+ENV INSPECTIT_VERSION 1.6.6.76
 
-RUN wget ftp://ftp.novatec-gmbh.de/inspectit/releases/RELEASE.${INSPECTIT_VERSION}/inspectit-agent-sun1.5.zip -q \
-	&& unzip inspectit-agent-sun1.5.zip -d /opt \
-	&& rm -f inspectit-agent-sun1.5.zip
+RUN wget https://github.com/inspectIT/inspectIT/releases/download/${INSPECTIT_VERSION}/inspectit-agent-sun1.5.zip -q \
+      && unzip inspectit-agent-sun1.5.zip -d /opt \
+      && rm -f inspectit-agent-sun1.5.zip
 
 ENV INSPECTIT_AGENT_HOME /opt/agent
 ENV INSPECTIT_CONFIG_HOME /opt/agent/active-config
