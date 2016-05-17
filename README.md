@@ -1,7 +1,7 @@
 [![](https://badge.imagelayers.io/inspectit/jetty:latest.svg)](https://imagelayers.io/?images=inspectit/jetty:latest 'Get your own badge on imagelayers.io')
 
 # Jetty with inspectIT
-This docker image is based on the official Jetty docker image including the inspectIT agent of the open source APM solution [www.inspectit.eu](http://www.inspectit.eu).
+This docker image is based on the official Jetty docker image including the inspectIT agent of the open source APM solution [www.inspectit.rocks](http://www.inspectit.rocks).
 This image can be used easily as a replacement for the Jetty image, meaning you only have to change your existing Dockerfile ```FROM jetty:latest``` to ```FROM inspectit/jetty:latest```.
 
 ## Quickstart
