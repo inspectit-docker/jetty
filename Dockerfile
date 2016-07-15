@@ -1,6 +1,6 @@
 FROM jetty:latest
 
-ENV INSPECTIT_VERSION 1.6.7.79
+ENV INSPECTIT_VERSION 1.6.9.83
 
 RUN wget https://github.com/inspectIT/inspectIT/releases/download/${INSPECTIT_VERSION}/inspectit-agent-sun1.5.zip -q \
       && unzip inspectit-agent-sun1.5.zip -d /opt \
