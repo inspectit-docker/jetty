@@ -1,6 +1,6 @@
 FROM jetty:latest
 
-ENV INSPECTIT_VERSION 1.9.2.106
+ENV INSPECTIT_VERSION 1.9.3.107
 ENV INSPECTIT_AGENT_HOME /opt/agent
 
 # 1. download and unpack agent
